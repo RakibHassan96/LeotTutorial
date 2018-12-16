@@ -1,0 +1,16 @@
+.program-img {
+	width: 45%;
+	height: 45%;
+	display: block;
+	margin-left: 2.5%;
+
+}
+
+.flexed {
+	display: flex;
+}
+
+.programs-page p, .programs-page h2 {
+	text-align: left !important;
+	margin-left: 10% !important;
+}
