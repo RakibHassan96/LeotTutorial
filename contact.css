@@ -1,0 +1,20 @@
+#contact p {
+	text-align: left !important;
+	margin-left: 10%;
+}
+
+#contact ul {
+	margin-left: 25%
+}
+
+#contact-info {
+	margin-top: 50px;
+	border: 1px solid black;
+	width: 80%;
+	margin-left: 10%;
+	padding: 20px 0;
+}
+
+#contact p strong {
+	margin-right: 5%;
+}

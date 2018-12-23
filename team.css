@@ -1,0 +1,29 @@
+#tutors h4 {
+	text-align: center;
+}
+
+#tutors {
+	width: 90%;
+	margin-left: 5%;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#tutors img {
+	margin-top: 10px;
+}
+
+#founder {
+	width: 50%;
+	margin: 5px auto;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#founder img {
+	width: 40%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 20px;
+}
