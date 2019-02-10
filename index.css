@@ -26,6 +26,7 @@ body {
 
 .banner {
 	width: 100%;
+	image-orientation: from-image;
 }
 
 #content .section {
