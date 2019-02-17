@@ -20,12 +20,37 @@ body {
 	width: 20%;
 }
 
+#navbar-padding {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 #logo {
 	width: 20%;
 }
 
-.banner {
-	width: 100%;
+#logo-name {
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 5px;
+	font-size: 200%;
+}
+
+@media (max-width: 999px) {
+	.banner {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.banner {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#content {
+		width: 80%;
+		margin-left: 10%;
+	}
 }
 
 #content .section {
