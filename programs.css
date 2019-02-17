@@ -1,9 +1,19 @@
-.program-img {
-	width: 45%;
-	height: 45%;
-	display: block;
-	margin-left: 2.5%;
+@media (min-width: 501px) {
+	.program-img {
+		width: 45%;
+		height: 45%;
+		display: block;
+		margin-left: 2.5%;
+	}
+}
 
+@media (max-width: 500px) {
+	.program-img {
+		width: 40%;
+		height: 40%;
+		display: block;
+		margin-left: 2.5%;
+	}
 }
 
 .flexed {
@@ -15,14 +25,14 @@
 	margin-left: 10% !important;
 }
 
-.programs-page p {
+/*.programs-page p {
 	font-size: 25px;
-}
+}*/
 
 .programs-page h2 {
 	font-size: 2.5rem !important;
 }
 
-.class-text, .programs-page img {
-	margin-top: 2%
+.class-text {
+	margin-top: 2%;
 }
