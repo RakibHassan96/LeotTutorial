@@ -2,7 +2,7 @@ body {
 	background-color: red;
 }
 
-#page {
+#content {
 	border: 1px solid black;
 }
 
@@ -38,6 +38,8 @@ body {
 @media (max-width: 999px) {
 	.banner {
 		width: 100%;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
 	}
 }
 
@@ -45,6 +47,8 @@ body {
 	.banner {
 		width: 80%;
 		margin-left: 10%;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
 	}
 
 	#content {
